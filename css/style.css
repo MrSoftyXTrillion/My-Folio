@@ -1,0 +1,743 @@
+/* COMMON CSS STARTS HERE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+/* COMMON CSS ENDS HERE */
+
+/* NAVBAR STARTS HERE */
+nav {
+    background-color: #02918b;
+}
+nav .logo {
+    width: 40%
+}
+nav .menu {
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+}
+nav .menu ul li a {
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 25px;
+    display: block;
+}
+/* NAVBER ENDS HERE */
+
+/* BANNER STARTS HERE */
+#banner {
+    background-image: url(../img/banner.jpg);
+    background-color: #0000009d;
+    background-blend-mode: multiply;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#banner .container {
+    height: 100%;
+}
+#banner .row {
+    height: 100%;
+}
+#banner .banner_cnt {
+    width: 1170px;
+}
+#banner .banner_cnt h4 {
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+#banner .banner_cnt h1 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 20px;
+}
+#banner .banner_cnt p {
+    font-size: 23px;
+    font-weight: 400;
+}
+#banner .banner_cnt .curlybraceslogo{
+    margin-top: 52px;
+}
+#banner .banner_cnt a {
+    background-color: #cfc91d;
+    padding: 19px 43px;
+    width: 196px;
+    margin-top: 52px;
+    display: inline-block;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+/* BANNER ENDS HERE */
+
+/* ABOUT ME SECTION STARTS HERE */
+#aboutme {
+    background-color: white;
+    text-align: center;
+}
+#aboutme .container {
+    height: 100%;
+}
+#aboutme .row {
+    height: 100%;
+    padding-top: 98px;
+}
+#aboutme .aboutme_cnt {
+    width: 1170px;
+}
+#aboutme .aboutme_cnt h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918b;
+    margin-top: 98px;
+    position: relative;
+    text-align: center;
+}
+#aboutme .aboutme_cnt h1::after {
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/texttologo.png);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#aboutme .aboutme_cnt .detail {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7e8187;
+    margin: 80px auto;
+    width: 80%;
+    text-align: center;
+}
+#aboutme .aboutme_cnt .detail .insidetext {
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+.box {
+    text-align: center;
+    width: 25%;
+    border-right: 1px solid #ccc;
+    padding: 40px 0;
+}
+.box span {
+    color: #02918b;
+    font-size: 35px;
+}
+.box h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box p {
+    font-size: 11px;
+    color: #7e8287;
+    width: 159px;
+    margin: auto;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+.box:last-child {
+    border: none;
+}
+/* ABOUT ME SECTION ENDS HERE */
+
+/* SERVICE SECTION STARTS HERE */
+#service {
+    margin-top: 156px;
+    background-color: #f0f0e8;
+    height: 727px;
+}
+#service .textpart {
+    width: 50%;
+    padding-top: 73px;
+    padding-bottom: 85px;
+}
+#service .heading {
+    position: relative;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+}
+#service .heading::after {
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/texttologo.png);
+    position: absolute;
+    bottom: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#service p {
+    line-height: 30px;
+    margin: 84px 85px;
+    color: #7e8287;
+    font-size: 16px;
+}
+#service .earth {
+    width: 50%;
+    text-align: left;
+    padding: 0 35px;
+    display: block;
+}
+#service .earth span {
+    font-size: 20px;
+    color: #02918c;
+}
+#service .earth h4 {
+    margin-top: 14px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .earth p {
+    font-size: 12px;
+    color: #7e8287;
+    margin: 15px 0px;
+    text-align: left;
+    line-height: 20px;
+    width: 212px;
+    height: 60px;
+}
+#service .search {
+    width: 50%;
+    text-align: left;
+    padding: 0 35px;
+    display: block;
+}
+#service .search span {
+    font-size: 20px;
+    color: #02918c;
+}
+#service .search h4 {
+    margin-top: 14px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .search p {
+    font-size: 12px;
+    color: #7e8287;
+    margin: 15px 0px;
+    text-align: left;
+    line-height: 20px;
+    width: 212px;
+    height: 60px;
+}
+#service .time {
+    width: 50%;
+    text-align: left;
+    padding: 0 35px;
+    display: block;
+}
+#service .time span {
+    font-size: 20px;
+    color: #02918c;
+}
+#service .time h4 {
+    margin-top: 14px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .time p {
+    font-size: 12px;
+    color: #7e8287;
+    margin: 15px 0px;
+    text-align: left;
+    line-height: 20px;
+    width: 212px;
+    height: 60px;
+}
+#service .graph {
+    width: 50%;
+    text-align: left;
+    padding: 0 35px;
+    display: block;
+}
+#service .graph span {
+    font-size: 20px;
+    color: #02918c;
+}
+#service .graph h4 {
+    margin-top: 14px;
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+}
+#service .graph p {
+    font-size: 12px;
+    color: #7e8287;
+    margin: 15px 0px;
+    text-align: left;
+    line-height: 20px;
+    width: 212px;
+    height: 60px;
+}
+#service .sideimage {
+    width: 50%;
+}
+#service .sideimage img {
+    display: inline-block;
+    width: 671px;
+    height: 727px;
+}
+/* SERVICE SECTION ENDS HERE */
+
+/* MY WORK SECTION STARTS HERE */
+#mywork {
+    padding: 80px 0px;
+}
+#mywork .container {
+    width: 1170px;
+    margin: auto;
+}
+#mywork h1 {
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 46px;
+    position: relative;
+}
+#mywork h1::after {
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/texttologo.png);
+    position: absolute;
+    bottom: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#mywork p {
+    display: block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 31px;
+}
+/* MY WORK SECTION ENDS HERE */
+
+/* CONTACT ME SECTION STARTS HERE */
+#contactme {
+    padding: 80px 0px;
+}
+#contactme h1 {
+    color: #02918c;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 46px;
+    position: relative;
+}
+#contactme h1::after {
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/texttologo.png);
+    position: absolute;
+    bottom: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#contactme p {
+    width: 702px;
+    height: 70px;
+    text-align: center;
+    margin-left: 336px;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 31px;
+}
+/* CONTACT ME SECTION ENDS HERE */
+
+/* IMAGE SECTION STARTS HERE */
+#cards {
+    width: 100%;
+}
+#cards .row {
+    width: 100%;
+    position: relative;
+}
+#cards .image1 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image2 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image3 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image4 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image5 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image6 img {
+    width: 336px;
+    height: 100%;
+}
+#cards .image7 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image8 img {
+    width: 335px;
+    height: 100%;
+}
+#cards .image1 .overlay1 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 5px;
+    left: 26px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image1 .overlay1 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image1 .overlay1 p {
+    margin: 28px 28px;
+}
+#cards .image1:hover .overlay1 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image2 .overlay2 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 5px;
+    left: 366px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image2 .overlay2 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image2 .overlay2 p {
+    margin: 28px 28px;
+}
+#cards .image2:hover .overlay2 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image3 .overlay3 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 5px;
+    left: 703px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image3 .overlay3 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image3 .overlay3 p {
+    margin: 28px 28px;
+}
+#cards .image3:hover .overlay3 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image4 .overlay4 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 5px;
+    left: 1042px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image4 .overlay4 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image4 .overlay4 p {
+    margin: 28px 28px;
+}
+#cards .image4:hover .overlay4 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image5 .overlay5 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 262px;
+    left: 26px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image5 .overlay5 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image5 .overlay5 p {
+    margin: 28px 28px;
+}
+#cards .image5:hover .overlay5 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image6 .overlay6 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 262px;
+    left: 366px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image6 .overlay6 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image6 .overlay6 p {
+    margin: 28px 28px;
+}
+#cards .image6:hover .overlay6 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image7 .overlay7 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 262px;
+    left: 703px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image7 .overlay7 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image7 .overlay7 p {
+    margin: 28px 28px;
+}
+#cards .image7:hover .overlay7 {
+    visibility: visible;
+    opacity: 1;
+}
+#cards .image8 .overlay8 {
+    background-color: #02918aa3;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    width: 280px;
+    height: 247px;
+    top: 262px;
+    left: 1042px;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+#cards .image8 .overlay8 h4 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+#cards .image8 .overlay8 p {
+    margin: 28px 28px;
+}
+#cards .image8:hover .overlay8 {
+    visibility: visible;
+    opacity: 1;
+}
+/* IMAGE SECTION ENDS HERE */
+
+/* CONTACT ME SECTION STARTS HERE */
+.contactme {
+    background-color: white;
+    text-align: center;
+}
+.contactme .container {
+    height: 100%;
+}
+.contactme .row {
+    padding-top: 25px;
+}
+.contactme .contactme_cnt {
+    width: 1170px;
+}
+.contactme .contactme_cnt h1 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918b;
+    margin-top: 98px;
+    position: relative;
+    text-align: center;
+}
+.contactme .contactme_cnt h1::after {
+    content: '';
+    width: 162px;
+    height: 9px;
+    background-image: url(../img/texttologo.png);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contactme .contactme_cnt .detail {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7e8187;
+    margin: 80px auto;
+    width: 62%;
+    text-align: center;
+    line-height: 43px;
+}
+/* CONTACT ME SECTION ENDS HERE */
+
+/* FORM SECTION STARTS HERE */
+.black {
+    background-color: black;
+}
+.black .row form {
+    align-items: center;
+    display: inline-block;
+    position: relative;
+}
+.black .row form input {
+    text-align: center;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #7e8187;
+    font-size: 18px;
+    color: white;
+}
+.black .row form #NAME {
+    padding: 58px 0px 20px 0;
+    width: 600px;
+    left: 376px;
+    position: relative;
+}
+.black .row form #EMAIL_ADDRESS {
+    padding: 58px 0px 20px 0;
+    width: 600px;
+    left: 376px;
+    position: relative;
+}
+.black .row form #Subject {
+    padding: 58px 0px 20px 0;
+    width: 900px;
+    left: 225px;
+    position: relative;
+}
+.black .row form #MESSAGE {
+    padding: 58px 0px 20px 0;
+    width: 900px;
+    left: 229px;
+    position: relative;
+}
+.black .row form #SUBMIT {
+    border: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 584px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #cfc91d;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 69px;
+}
+.black .row form h4 {
+    position: relative;
+    left: 635px;
+    display: inline-block;
+    margin-top: 90px;
+    font-size: 20px;
+    color:#7e8187;
+}
+/* FORM SECTION ENDS HERE */
